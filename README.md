@@ -36,6 +36,7 @@ We'll pick 2 form field types:
 
 ### Page
 - Title, String, Single line text, Required, and used as a Title
+- Slug, String, Slug, Required - Specify {title} as the template
 - Form, Reference to Form
 
 ### Form
@@ -96,3 +97,19 @@ We'll pick 2 form field types:
     - Name: hour
     - Label: [HH](https://momentjs.com/docs/#/displaying/) 
     - Required: true 
+
+# 3. Query our Page, Form and Fields
+
+We have three pages, with two separate forms and, a recap page.
+
+- Contact Form
+- Booking Form
+- Recap
+
+# 4. Build Pages programmatically with Next.js
+
+This comes in two significant parts. First we create the routes (or "paths") and then query for the data for each page with those path params.
+
+# 5. Build our Form Field components
+
+In this file, we will create the structure of our basic form, and map through each of our fields to return the appropreciate field.
